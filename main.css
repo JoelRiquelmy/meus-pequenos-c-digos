@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body> header {
+    background-color: rgb(61, 60, 60);
+    padding: 16px 0;
+    color: whitesmoke;
+}
+
+header .container {   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header li a {
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+
+header li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+.arcticle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.arcticle article img {
+    /*height: 180px;*/ 
+    width: 100%;
+}
+.arcticle article {
+    width: 30%;
+}
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.arcticle article {
+
+    margin-bottom: 16px;
+}
+.arcticle article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.arcticle article a {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.arcticle article a:hover {
+    text-decoration: underline;
+}
+
+.arcticle article p,
+.arcticle article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.arcticle article h3 {
+    font-size: 24px;
+}
+section h2 {
+    font-size: 32px;
+}
+
+#esportes {
+    background-color: rgba(0, 216, 0, 0.1);
+}
+
+#esportes .arcticle article a {
+    background-color: #008200;
+}
+
+#economy {
+    background-color: rgba(238, 238, 24, 0.164);
+}
+#economy .arcticle article a {
+    background-color: rgba(255, 166, 0, 0.596);
+}
+
+#cs2 {
+    background-color: rgba(235, 143, 32, 0.795);
+}
+
+#cs2 .arcticle a {
+    background-color: rgba(59, 59, 211, 0.925);
+}
+
+#entreterimento {
+    background-color: blueviolet;
+}
+#entreterimento .arcticle a {
+    background-color: deeppink;
+}
+
