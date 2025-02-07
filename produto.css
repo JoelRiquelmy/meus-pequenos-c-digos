@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+button,
+footer {
+    font-family: "Prompt", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+body {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: rgb(73, 56, 8);
+    padding: 16px 0;
+    color: aliceblue;
+}
+
+section {
+    color: rgb(94, 73, 16);
+    background-color: antiquewhite;
+}
+
+.container,
+section {
+    margin-left: 16px;
+    display: inline;
+    font-size: 20px;
+}
+
+.container,
+section {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .container {
+    align-items: flex-start;
+    
+}
+
+button {
+    background-color: rgb(180, 160, 135);
+    color: aliceblue;
+    height: 26px;
+}
+
+button:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+footer {
+    background-color: rgb(73, 56, 8);
+    color: aliceblue;
+    padding: 20px 0;
+}
