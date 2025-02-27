@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(97, 132, 208);
+    border-bottom: 16px solid #51739a;
+    padding: 16px 0;
+    justify-content: center;
+    display: flex;
+    font-style: oblique;
+    color: #001b3a;
+}
+
+form {
+    background-color: #789dc6;
+    text-align: center;
+    padding: 8px 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
